@@ -63,7 +63,6 @@ var intToRoman = (num) => {
     while (array[i] <= num) {
       num = num - array[i];
       roman = roman + map.get(array[i]);
-      // if(sub)
     }
   }
   return roman;
