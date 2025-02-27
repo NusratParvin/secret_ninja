@@ -69,5 +69,5 @@ var romanToInt = (s) => {
   return ans;
 };
 
-const string = "IX";
+const string = "IV";
 console.log(romanToInt(string));
